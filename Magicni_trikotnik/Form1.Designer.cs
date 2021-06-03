@@ -42,14 +42,16 @@ namespace Magicni_trikotnik
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.NavajoWhite;
-            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(45, 547);
+            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F);
+            this.button1.Location = new System.Drawing.Point(32, 628);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(80, 73);
             this.button1.TabIndex = 1;
@@ -62,8 +64,8 @@ namespace Magicni_trikotnik
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Orange;
-            this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(12, 413);
+            this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F);
+            this.button2.Location = new System.Drawing.Point(12, 474);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(80, 73);
             this.button2.TabIndex = 2;
@@ -76,8 +78,8 @@ namespace Magicni_trikotnik
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.SandyBrown;
-            this.button3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(45, 259);
+            this.button3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F);
+            this.button3.Location = new System.Drawing.Point(45, 326);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(80, 73);
             this.button3.TabIndex = 3;
@@ -90,8 +92,8 @@ namespace Magicni_trikotnik
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.Tomato;
-            this.button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(21, 134);
+            this.button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(12, 182);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(80, 73);
             this.button4.TabIndex = 4;
@@ -104,8 +106,8 @@ namespace Magicni_trikotnik
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.Yellow;
-            this.button5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(212, 192);
+            this.button5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F);
+            this.button5.Location = new System.Drawing.Point(201, 192);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(80, 73);
             this.button5.TabIndex = 5;
@@ -118,8 +120,8 @@ namespace Magicni_trikotnik
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.YellowGreen;
-            this.button6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(392, 154);
+            this.button6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F);
+            this.button6.Location = new System.Drawing.Point(385, 172);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(80, 73);
             this.button6.TabIndex = 6;
@@ -132,7 +134,7 @@ namespace Magicni_trikotnik
             // button7
             // 
             this.button7.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F);
             this.button7.Location = new System.Drawing.Point(464, 285);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(80, 73);
@@ -146,8 +148,8 @@ namespace Magicni_trikotnik
             // button8
             // 
             this.button8.BackColor = System.Drawing.Color.LightPink;
-            this.button8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(627, 285);
+            this.button8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F);
+            this.button8.Location = new System.Drawing.Point(619, 340);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(80, 73);
             this.button8.TabIndex = 8;
@@ -160,8 +162,8 @@ namespace Magicni_trikotnik
             // button9
             // 
             this.button9.BackColor = System.Drawing.Color.HotPink;
-            this.button9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(617, 413);
+            this.button9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F);
+            this.button9.Location = new System.Drawing.Point(603, 487);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(80, 73);
             this.button9.TabIndex = 9;
@@ -174,7 +176,7 @@ namespace Magicni_trikotnik
             // button10
             // 
             this.button10.BackColor = System.Drawing.Color.Plum;
-            this.button10.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F);
             this.button10.Location = new System.Drawing.Point(434, 441);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(80, 73);
@@ -188,8 +190,8 @@ namespace Magicni_trikotnik
             // button11
             // 
             this.button11.BackColor = System.Drawing.Color.MediumOrchid;
-            this.button11.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(589, 547);
+            this.button11.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F);
+            this.button11.Location = new System.Drawing.Point(636, 628);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(80, 73);
             this.button11.TabIndex = 11;
@@ -202,8 +204,8 @@ namespace Magicni_trikotnik
             // button12
             // 
             this.button12.BackColor = System.Drawing.Color.SteelBlue;
-            this.button12.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.Location = new System.Drawing.Point(578, 134);
+            this.button12.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F);
+            this.button12.Location = new System.Drawing.Point(603, 192);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(80, 73);
             this.button12.TabIndex = 12;
@@ -222,12 +224,22 @@ namespace Magicni_trikotnik
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Magicni_trikotnik.Properties.Resources.gosenica;
+            this.pictureBox2.Location = new System.Drawing.Point(138, 111);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(452, 509);
+            this.pictureBox2.TabIndex = 13;
+            this.pictureBox2.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGreen;
             this.ClientSize = new System.Drawing.Size(728, 730);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
@@ -248,6 +260,7 @@ namespace Magicni_trikotnik
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gosenica Grita";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -266,6 +279,7 @@ namespace Magicni_trikotnik
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 
