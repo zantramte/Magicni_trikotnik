@@ -133,7 +133,7 @@ namespace Magicni_trikotnik
             // 
             this.button7.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.button7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(458, 285);
+            this.button7.Location = new System.Drawing.Point(464, 285);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(80, 73);
             this.button7.TabIndex = 7;
