@@ -19,7 +19,10 @@ namespace Magicni_trikotnik
 
             for (int indeks = 0; indeks < Gosenica.Pozicije_X.Count; indeks++)
             {
+                Gosenica.Moj_Rezultat = Gosenica.Izberi_nakljucno.Next(Gosenica.Stevila.Count);
                 Controls[indeks].Location = new Point(Gosenica.Pozicije_X[indeks], Gosenica.Pozicije_Y[indeks]);
+                Controls[indeks].Text = Convert.ToString(Gosenica.Stevila[Gosenica.Moj_Rezultat]);
+                Gosenica.Stevila.RemoveAt(Gosenica.Moj_Rezultat);
                 ControlExtension.Draggable(Controls[indeks], true);
             }
         }
@@ -39,6 +42,7 @@ namespace Magicni_trikotnik
             }
 
             Gosenica.Uredi_vse();
+            Uredi();
         }
 
         private void pictureBox2_MouseEnter(object sender, EventArgs e)
@@ -55,9 +59,10 @@ namespace Magicni_trikotnik
 
         private async void button4_Click(object sender, EventArgs e)
         {
+            Gosenica.Stevec++;
             Button Sladica = (Button)sender;
             ControlExtension.Draggable(Sladica, false);
-            Gosenica.Stevec++;
+            Gosenica.Rezultat += Convert.ToInt32(Sladica.Text);
 
             switch (Gosenica.Stevec)
             {
@@ -76,12 +81,15 @@ namespace Magicni_trikotnik
                     if (Gosenica.Preveri_Rezultata())
                     {
                         MessageBox.Show("BRAVO! Okusna sladica, hihihi!", "Gosenica Grita sporoča", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        Gosenica.Uredi_vse();
                         Uredi();
                     }
 
                     else
                     {
                         MessageBox.Show("NAROBE! Vse sladice niso prave!", "Gosenica Grita sporoča", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        Gosenica.Uredi_vse();
+                        Uredi();
                     }
                     break;
             }
