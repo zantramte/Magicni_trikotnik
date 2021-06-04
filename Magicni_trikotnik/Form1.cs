@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Drawing.Drawing2D;
 
 namespace Magicni_trikotnik
 {
@@ -23,7 +22,12 @@ namespace Magicni_trikotnik
                 Controls[indeks].Location = new Point(Gosenica.Pozicije_X[indeks], Gosenica.Pozicije_Y[indeks]);
                 Controls[indeks].Text = Convert.ToString(Gosenica.Stevila[Gosenica.Moj_Rezultat]);
                 Gosenica.Stevila.RemoveAt(Gosenica.Moj_Rezultat);
-                ControlExtension.Draggable(Controls[indeks], true);
+                Controls[indeks].Visible = true;
+            }
+
+            for (int indeks = 0; indeks < Gosenica.Stevila.Length; indeks++)
+            {
+                if ()
             }
         }
 
@@ -31,63 +35,47 @@ namespace Magicni_trikotnik
         {
             InitializeComponent();
 
-            foreach (Control Kontrola in Controls)
-            {
-                if (Kontrola is Button)
-                {
-                    ControlExtension.Draggable(Kontrola, true);
-                    Gosenica.Pozicije_X.Add(Kontrola.Location.X);
-                    Gosenica.Pozicije_Y.Add(Kontrola.Location.Y);
-                }
-            }
+            Controls.SetChildIndex(button13, 13);
+            Controls.SetChildIndex(pictureBox2, 13);
+            Controls.SetChildIndex(button13, 13);
+            button13.FlatAppearance.BorderSize = 0;
 
             Gosenica.Uredi_vse();
             Uredi();
         }
 
-        private void pictureBox2_MouseEnter(object sender, EventArgs e)
-        {
-            PictureBox Jabolko = (PictureBox)sender;
-            Jabolko.Image = Properties.Resources.jabolko_2;
-        }
-
-        private void pictureBox2_MouseLeave(object sender, EventArgs e)
-        {
-            PictureBox Jabolko = (PictureBox)sender;
-            Jabolko.Image = Properties.Resources.jabolko;
-        }
-
-        private async void button4_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
             Gosenica.Stevec++;
             Button Sladica = (Button)sender;
-            ControlExtension.Draggable(Sladica, false);
-            Gosenica.Rezultat += Convert.ToInt32(Sladica.Text);
 
             switch (Gosenica.Stevec)
             {
                 case 1:
-                    Sladica.Location = new Point(458, 601);
+                    Sladica.Location = new Point(467, 592);
                     break;
 
                 case 2:
-                    Sladica.Location = new Point(341, 614);
+                    Sladica.Location = new Point(381, 610);
+                    break;
+
+                case 3:
+                    Sladica.Location = new Point(295, 610);
                     break;
 
                 default:
-                    Sladica.Location = new Point(224, 568);
-                    await Task.Delay(200);
+                    Sladica.Location = new Point(209, 556);
 
                     if (Gosenica.Preveri_Rezultata())
                     {
-                        MessageBox.Show("BRAVO! Okusna sladica, hihihi!", "Gosenica Grita sporoča", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("BRAVO! Okusna števila, hihihi!", "Gosenica Grita sporoča", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         Gosenica.Uredi_vse();
                         Uredi();
                     }
 
                     else
                     {
-                        MessageBox.Show("NAROBE! Vse sladice niso prave!", "Gosenica Grita sporoča", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("NAROBE! Vse sštevilke niso prave!", "Gosenica Grita sporoča", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         Gosenica.Uredi_vse();
                         Uredi();
                     }
