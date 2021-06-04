@@ -16,9 +16,9 @@ namespace Magicni_trikotnik
             "hruška", "jagoda", "pomaranča", "grozdje", "limona", "češnja", "jabolko"
         };
         public static int Stevilo, Poskusi = 3;
-        private static string Izbrano_sadje;
+        private static string Izbrano_sadje, Moje_sadje;
 
-        public static void Uredi_vse()
+        public static void Izmisli()
         {
             Sadje_imena.Clear();
             Stevilo = Izberi_nakljucno.Next(Sadje.Count);
@@ -27,7 +27,15 @@ namespace Magicni_trikotnik
 
         public static bool Preveri_Rezultata()
         {
-            return true;
+            if (Moje_sadje == Izbrano_sadje)
+            {
+                return true;
+            }
+
+            else
+            {
+                return false;
+            }
         }
     }
 }

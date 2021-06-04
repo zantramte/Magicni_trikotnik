@@ -16,7 +16,7 @@ namespace Magicni_trikotnik
         {
             InitializeComponent();
             button13.FlatAppearance.BorderSize = 0;
-            Gosenica.Uredi_vse();
+            Gosenica.Izmisli();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -31,7 +31,7 @@ namespace Magicni_trikotnik
 
             if (Gosenica.Sadje_imena.Contains(Sladica.Text))
             {
-                MessageBox.Show("Sem že povedala, da mi " + Sladica.Text + " ne tekne danes!", "Gosenica Grita sporoča", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Sem že povedala, da mi " + Sladica.Text + " ne tekne danes!", "Gosenica Grita sporoča", MessageBoxButtons.OK, MessageBoxIcon.Information);                
             }
 
             else
