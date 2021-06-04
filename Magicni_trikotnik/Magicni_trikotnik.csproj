@@ -99,9 +99,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\jabolko.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\jabolkoo.png" />
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +145,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\gozdicek.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jabolko.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\češnja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grozdje.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hruska.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\naranca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limona.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jagoda.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

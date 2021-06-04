@@ -127,6 +127,12 @@
   <data name="gozdicek" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gozdicek.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="grozdje" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grozdje.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hruska" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hruska.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="jabolko" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jabolko.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,8 +142,14 @@
   <data name="jabolko_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="jagoda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jagoda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="les" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\les.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="limona" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\limona.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="listo_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\listo_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,6 +169,9 @@
   <data name="listo_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\listo_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="naranca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\naranca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ozadi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ozadi.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -168,5 +183,8 @@
   </data>
   <data name="vrt" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vrt.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="češnja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\češnja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

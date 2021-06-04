@@ -63,6 +63,16 @@ namespace Magicni_trikotnik.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap češnja {
+            get {
+                object obj = ResourceManager.GetObject("češnja", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gosenica {
             get {
                 object obj = ResourceManager.GetObject("gosenica", resourceCulture);
@@ -86,6 +96,26 @@ namespace Magicni_trikotnik.Properties {
         internal static System.Drawing.Bitmap gozdicek {
             get {
                 object obj = ResourceManager.GetObject("gozdicek", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap grozdje {
+            get {
+                object obj = ResourceManager.GetObject("grozdje", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hruska {
+            get {
+                object obj = ResourceManager.GetObject("hruska", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +153,29 @@ namespace Magicni_trikotnik.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap jagoda {
+            get {
+                object obj = ResourceManager.GetObject("jagoda", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap les {
             get {
                 object obj = ResourceManager.GetObject("les", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap limona {
+            get {
+                object obj = ResourceManager.GetObject("limona", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -186,6 +236,16 @@ namespace Magicni_trikotnik.Properties {
         internal static System.Drawing.Bitmap listo_6 {
             get {
                 object obj = ResourceManager.GetObject("listo_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap naranca {
+            get {
+                object obj = ResourceManager.GetObject("naranca", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

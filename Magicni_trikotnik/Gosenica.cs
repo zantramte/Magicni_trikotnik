@@ -3,37 +3,31 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
 
 namespace Magicni_trikotnik
 {
     public class Gosenica
     {
         public static Random Izberi_nakljucno = new Random();
-        public static int[] Stevila = new int[6];
-        public static int[] Moja_Stevila = new int[6];
-        public static int Stopnja, Stevec = 0;
+        public static List<string> Sadje_imena = new List<string>();
+        private static List<string> Sadje = new List<string>()
+        {
+            "hruška", "jagoda", "pomaranča", "grozdje", "limona", "češnja", "jabolko"
+        };
+        public static int Stevilo, Poskusi = 3;
+        private static string Izbrano_sadje;
 
         public static void Uredi_vse()
-        { 
-            Stevila.Clear();
-
-            for (int indeks = 0; indeks < 101; indeks++)
-            {
-                Stevila.Add(indeks);
-            }
+        {
+            Sadje_imena.Clear();
+            Stevilo = Izberi_nakljucno.Next(Sadje.Count);
+            Izbrano_sadje = Sadje[Stevilo];
         }
 
         public static bool Preveri_Rezultata()
         {
-            if (Moj_Rezultat == Rezultat)
-            {
-                return true;
-            }
-
-            else
-            {
-                return false;
-            }
+            return true;
         }
     }
 }
