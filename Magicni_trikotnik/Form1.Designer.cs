@@ -250,7 +250,7 @@ namespace Magicni_trikotnik
             this.button13.FlatAppearance.BorderSize = 0;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Font = new System.Drawing.Font("Chiller", 45F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.Location = new System.Drawing.Point(127, 3);
+            this.button13.Location = new System.Drawing.Point(146, 3);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(331, 125);
             this.button13.TabIndex = 14;
@@ -261,7 +261,7 @@ namespace Magicni_trikotnik
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::Magicni_trikotnik.Properties.Resources.tablaa;
-            this.pictureBox2.Location = new System.Drawing.Point(20, -15);
+            this.pictureBox2.Location = new System.Drawing.Point(39, -15);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(548, 216);
             this.pictureBox2.TabIndex = 13;
@@ -304,7 +304,7 @@ namespace Magicni_trikotnik
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Chiller", 80.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(595, 25);
+            this.label1.Location = new System.Drawing.Point(606, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(100, 124);
             this.label1.TabIndex = 39;

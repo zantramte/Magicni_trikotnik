@@ -16,7 +16,7 @@ namespace Magicni_trikotnik
             "hruška", "jagoda", "pomaranča", "grozdje", "limona", "češnja", "jabolko"
         };
         public static int Stevilo, Poskusi = 3;
-        private static string Izbrano_sadje, Moje_sadje;
+        public static string Izbrano_sadje, Moje_sadje;
 
         public static void Izmisli()
         {
