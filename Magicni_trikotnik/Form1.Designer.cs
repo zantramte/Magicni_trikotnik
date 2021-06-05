@@ -58,6 +58,7 @@ namespace Magicni_trikotnik
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -113,7 +114,7 @@ namespace Magicni_trikotnik
             this.button5.BackColor = System.Drawing.Color.Crimson;
             this.button5.Font = new System.Drawing.Font("Bauhaus 93", 8.25F);
             this.button5.ForeColor = System.Drawing.Color.Crimson;
-            this.button5.Location = new System.Drawing.Point(405, 237);
+            this.button5.Location = new System.Drawing.Point(412, 249);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(100, 100);
             this.button5.TabIndex = 22;
@@ -129,7 +130,7 @@ namespace Magicni_trikotnik
             this.button4.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button4.Font = new System.Drawing.Font("Bauhaus 93", 8.25F);
             this.button4.ForeColor = System.Drawing.Color.Orange;
-            this.button4.Location = new System.Drawing.Point(221, 249);
+            this.button4.Location = new System.Drawing.Point(221, 233);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(100, 100);
             this.button4.TabIndex = 21;
@@ -189,7 +190,7 @@ namespace Magicni_trikotnik
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Chiller", 80.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(595, 32);
+            this.label1.Location = new System.Drawing.Point(593, 66);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(100, 124);
             this.label1.TabIndex = 39;
@@ -202,7 +203,7 @@ namespace Magicni_trikotnik
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Chiller", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(665, 69);
+            this.label2.Location = new System.Drawing.Point(660, 103);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(49, 74);
             this.label2.TabIndex = 40;
@@ -237,7 +238,7 @@ namespace Magicni_trikotnik
             this.pictureBox10.BackColor = System.Drawing.Color.Orange;
             this.pictureBox10.Enabled = false;
             this.pictureBox10.Image = global::Magicni_trikotnik.Properties.Resources.naranca;
-            this.pictureBox10.Location = new System.Drawing.Point(244, 267);
+            this.pictureBox10.Location = new System.Drawing.Point(244, 251);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(68, 66);
             this.pictureBox10.TabIndex = 37;
@@ -292,7 +293,7 @@ namespace Magicni_trikotnik
             this.pictureBox5.BackColor = System.Drawing.Color.Crimson;
             this.pictureBox5.Enabled = false;
             this.pictureBox5.Image = global::Magicni_trikotnik.Properties.Resources.češnja;
-            this.pictureBox5.Location = new System.Drawing.Point(423, 255);
+            this.pictureBox5.Location = new System.Drawing.Point(430, 267);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(68, 66);
             this.pictureBox5.TabIndex = 32;
@@ -339,7 +340,7 @@ namespace Magicni_trikotnik
             this.button13.FlatAppearance.BorderSize = 0;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Font = new System.Drawing.Font("Chiller", 45F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.Location = new System.Drawing.Point(146, 3);
+            this.button13.Location = new System.Drawing.Point(124, -10);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(331, 125);
             this.button13.TabIndex = 14;
@@ -351,7 +352,7 @@ namespace Magicni_trikotnik
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::Magicni_trikotnik.Properties.Resources.tablaa;
-            this.pictureBox2.Location = new System.Drawing.Point(39, -15);
+            this.pictureBox2.Location = new System.Drawing.Point(17, -28);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(548, 216);
             this.pictureBox2.TabIndex = 13;
@@ -362,7 +363,7 @@ namespace Magicni_trikotnik
             // 
             this.pictureBox13.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox13.Image = global::Magicni_trikotnik.Properties.Resources.listo;
-            this.pictureBox13.Location = new System.Drawing.Point(405, 182);
+            this.pictureBox13.Location = new System.Drawing.Point(412, 185);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(100, 116);
             this.pictureBox13.TabIndex = 42;
@@ -373,7 +374,7 @@ namespace Magicni_trikotnik
             // 
             this.pictureBox14.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox14.Image = global::Magicni_trikotnik.Properties.Resources.listo;
-            this.pictureBox14.Location = new System.Drawing.Point(17, 426);
+            this.pictureBox14.Location = new System.Drawing.Point(17, 416);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(100, 116);
             this.pictureBox14.TabIndex = 43;
@@ -384,7 +385,7 @@ namespace Magicni_trikotnik
             // 
             this.pictureBox15.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox15.Image = global::Magicni_trikotnik.Properties.Resources.listo;
-            this.pictureBox15.Location = new System.Drawing.Point(29, 207);
+            this.pictureBox15.Location = new System.Drawing.Point(29, 201);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(100, 116);
             this.pictureBox15.TabIndex = 44;
@@ -395,7 +396,7 @@ namespace Magicni_trikotnik
             // 
             this.pictureBox16.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox16.Image = global::Magicni_trikotnik.Properties.Resources.listo;
-            this.pictureBox16.Location = new System.Drawing.Point(616, 470);
+            this.pictureBox16.Location = new System.Drawing.Point(614, 468);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(98, 116);
             this.pictureBox16.TabIndex = 45;
@@ -417,12 +418,23 @@ namespace Magicni_trikotnik
             // 
             this.pictureBox18.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox18.Image = global::Magicni_trikotnik.Properties.Resources.listo;
-            this.pictureBox18.Location = new System.Drawing.Point(221, 191);
+            this.pictureBox18.Location = new System.Drawing.Point(221, 171);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(100, 116);
             this.pictureBox18.TabIndex = 47;
             this.pictureBox18.TabStop = false;
             this.pictureBox18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseClick);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Chiller", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(557, 3);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(170, 74);
+            this.label3.TabIndex = 48;
+            this.label3.Text = "Poskusi";
             // 
             // Form1
             // 
@@ -430,6 +442,7 @@ namespace Magicni_trikotnik
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGreen;
             this.ClientSize = new System.Drawing.Size(728, 730);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox11);
@@ -518,6 +531,7 @@ namespace Magicni_trikotnik
         private System.Windows.Forms.PictureBox pictureBox16;
         private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.PictureBox pictureBox18;
+        private System.Windows.Forms.Label label3;
     }
 }
 

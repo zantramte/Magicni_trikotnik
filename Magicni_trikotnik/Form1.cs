@@ -38,6 +38,7 @@ namespace Magicni_trikotnik
                 Gosenica.Poskusi = 3;
                 label2.Visible = false;
                 label1.ForeColor = Color.Black;
+                label3.ForeColor = Color.Black;
                 label1.Text = Convert.ToString(Gosenica.Poskusi);
             }
 
@@ -58,19 +59,21 @@ namespace Magicni_trikotnik
                     {
                         label2.Visible = true;
                         label1.ForeColor = Color.Red;
+                        label3.ForeColor = Color.Red;
                         MessageBox.Show("Ne, " + Gosenica.Moje_sadje + " mi danes ne tekne! Imaš še " + Gosenica.Poskusi + " poskus!", "Gosenica Grita sporoča", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
 
                     else
                     {
                         Igralnik.URL = "konec_igre.wav";
+                        label2.Visible = false;
                         DialogResult Vprašaj = MessageBox.Show("Konec! Danes mi tekne " + Gosenica.Izbrano_sadje + "! Želiš ponovno igro?", "Gosenica Grita sporoča", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                         
                         if (Vprašaj == DialogResult.Yes)
                         {
                             Gosenica.Izmisli();
                             Gosenica.Poskusi = 3;
-                            label2.Visible = false;
+                            label3.ForeColor = Color.Black;
                             label1.ForeColor = Color.Black;
                             label1.Text = Convert.ToString(Gosenica.Poskusi);
                         }
@@ -91,6 +94,7 @@ namespace Magicni_trikotnik
 
             if (Gosenica.Sadje_imena.Contains(Sladica.Text))
             {
+                Igralnik.URL = "nonono.wav";
                 MessageBox.Show("Sem že povedala, da mi " + Sladica.Text + " ne tekne danes!", "Gosenica Grita sporoča", MessageBoxButtons.OK, MessageBoxIcon.Information);                
             }
 
@@ -112,6 +116,7 @@ namespace Magicni_trikotnik
 
         private void Form1_MouseClick(object sender, MouseEventArgs e)
         {
+            Igralnik.URL = "klik.wav";
             Cursor = new Cursor(Application.StartupPath + "\\Miska\\gosenica_2.ico");
             Thread.Sleep(300);
             Cursor = new Cursor(Application.StartupPath + "\\Miska\\gosenica_1.ico");
