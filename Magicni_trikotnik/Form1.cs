@@ -94,8 +94,8 @@ namespace Magicni_trikotnik
             else
             {
                 Igralnik.URL = "hover.mp3";
-                Cursor = Cursors.Hand;
                 Sladica.Size = new Size(102, 102);
+                Cursor = new Cursor(Application.StartupPath + "\\Miska\\gosenica_2.ico");
             }
         }
 
@@ -104,6 +104,7 @@ namespace Magicni_trikotnik
             Cursor = Cursors.Default;
             Button Sladica = (Button)sender;
             Sladica.Size = new Size(100, 100);
+            Cursor = new Cursor(Application.StartupPath + "\\Miska\\gosenica_1.ico");
         }
     }
 }

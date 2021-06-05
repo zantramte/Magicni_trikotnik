@@ -187,8 +187,12 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Miska\gosenica_2.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="Miska\gosenica_1.ico" />
-    <Content Include="Miska\gosenica_2.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
