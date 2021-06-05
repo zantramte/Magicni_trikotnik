@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 
 namespace Magicni_trikotnik
 {
     public partial class Form1 : Form
     {
+        WindowsMediaPlayer Igralnik = new WindowsMediaPlayer();
+
         public Form1()
         {
             InitializeComponent();
@@ -29,7 +32,9 @@ namespace Magicni_trikotnik
             {
                 MessageBox.Show("Mmmm njammm, " + Gosenica.Izbrano_sadje + " mi danes zelo tekne! Igraj naprej!", "Gosenica Grita sporoča", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 Gosenica.Izmisli();
-                Gosenica.Poskusi = 0;
+                Gosenica.Poskusi = 3;
+                label2.Visible = false;
+                label1.ForeColor = Color.Black;
                 label1.Text = Convert.ToString(Gosenica.Poskusi);
             }
 
@@ -37,19 +42,20 @@ namespace Magicni_trikotnik
             {
                 if (Gosenica.Poskusi > 0)
                 {
+                    Igralnik.URL = "narobe.mp3";
                     Gosenica.Poskusi--;
                     label1.Text = Convert.ToString(Gosenica.Poskusi);
 
                     if (Gosenica.Poskusi == 2)
                     {
                         MessageBox.Show("Ne, " + Gosenica.Moje_sadje + " mi danes ne tekne! Imaš še " + Gosenica.Poskusi + " poskusa!", "Gosenica Grita sporoča", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        Gosenica.Izmisli();
                     }
 
                     else if (Gosenica.Poskusi == 1)
                     {
+                        label2.Visible = true;
+                        label1.ForeColor = Color.Red;
                         MessageBox.Show("Ne, " + Gosenica.Moje_sadje + " mi danes ne tekne! Imaš še " + Gosenica.Poskusi + " poskus!", "Gosenica Grita sporoča", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        Gosenica.Izmisli();
                     }
 
                     else
@@ -59,7 +65,9 @@ namespace Magicni_trikotnik
                         if (Vprašaj == DialogResult.Yes)
                         {
                             Gosenica.Izmisli();
-                            Gosenica.Poskusi = 0;
+                            Gosenica.Poskusi = 3;
+                            label2.Visible = false;
+                            label1.ForeColor = Color.Black;
                             label1.Text = Convert.ToString(Gosenica.Poskusi);
                         }
 
@@ -84,6 +92,7 @@ namespace Magicni_trikotnik
 
             else
             {
+                Igralnik.URL = "hover.mp3";
                 Cursor = Cursors.Hand;
                 Sladica.Size = new Size(102, 102);
             }
