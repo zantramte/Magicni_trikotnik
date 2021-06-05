@@ -20,6 +20,7 @@ namespace Magicni_trikotnik
             InitializeComponent();
             button13.FlatAppearance.BorderSize = 0;
             Gosenica.Izmisli();
+            Cursor = new Cursor(Application.StartupPath + "\\Miska\\gosenica_1.ico");
         }
 
         private void button4_Click(object sender, EventArgs e)
