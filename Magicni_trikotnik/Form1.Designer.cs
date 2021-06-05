@@ -306,7 +306,7 @@ namespace Magicni_trikotnik
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Chiller", 80.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(606, 32);
+            this.label1.Location = new System.Drawing.Point(595, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(100, 124);
             this.label1.TabIndex = 39;
@@ -317,7 +317,7 @@ namespace Magicni_trikotnik
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Chiller", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(676, 69);
+            this.label2.Location = new System.Drawing.Point(665, 69);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(49, 74);
             this.label2.TabIndex = 40;
