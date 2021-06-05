@@ -192,7 +192,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Miska\gosenica_1.ico" />
+    <Content Include="Miska\gosenica_1 %283%29.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
