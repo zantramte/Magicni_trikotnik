@@ -183,6 +183,16 @@ namespace Magicni_trikotnik.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap listo {
+            get {
+                object obj = ResourceManager.GetObject("listo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap listo_1 {
             get {
                 object obj = ResourceManager.GetObject("listo_1", resourceCulture);

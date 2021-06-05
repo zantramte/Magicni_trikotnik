@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WMPLib;
+using System.Threading;
 
 namespace Magicni_trikotnik
 {
@@ -31,6 +32,7 @@ namespace Magicni_trikotnik
 
             if (Gosenica.Preveri_Rezultata())
             {
+                Igralnik.URL = "ja.wav";
                 MessageBox.Show("Mmmm njammm, " + Gosenica.Izbrano_sadje + " mi danes zelo tekne! Igraj naprej!", "Gosenica Grita sporoča", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 Gosenica.Izmisli();
                 Gosenica.Poskusi = 3;
@@ -43,7 +45,7 @@ namespace Magicni_trikotnik
             {
                 if (Gosenica.Poskusi > 0)
                 {
-                    Igralnik.URL = "narobe.mp3";
+                    Igralnik.URL = "ne.wav";
                     Gosenica.Poskusi--;
                     label1.Text = Convert.ToString(Gosenica.Poskusi);
 
@@ -61,6 +63,7 @@ namespace Magicni_trikotnik
 
                     else
                     {
+                        Igralnik.URL = "konec_igre.wav";
                         DialogResult Vprašaj = MessageBox.Show("Konec! Danes mi tekne " + Gosenica.Izbrano_sadje + "! Želiš ponovno igro?", "Gosenica Grita sporoča", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                         
                         if (Vprašaj == DialogResult.Yes)
@@ -93,7 +96,7 @@ namespace Magicni_trikotnik
 
             else
             {
-                Igralnik.URL = "hover.mp3";
+                Igralnik.URL = "klik.wav";
                 Sladica.Size = new Size(102, 102);
                 Cursor = new Cursor(Application.StartupPath + "\\Miska\\gosenica_2.ico");
             }
@@ -104,6 +107,13 @@ namespace Magicni_trikotnik
             Cursor = Cursors.Default;
             Button Sladica = (Button)sender;
             Sladica.Size = new Size(100, 100);
+            Cursor = new Cursor(Application.StartupPath + "\\Miska\\gosenica_1.ico");
+        }
+
+        private void Form1_MouseClick(object sender, MouseEventArgs e)
+        {
+            Cursor = new Cursor(Application.StartupPath + "\\Miska\\gosenica_2.ico");
+            Thread.Sleep(300);
             Cursor = new Cursor(Application.StartupPath + "\\Miska\\gosenica_1.ico");
         }
     }
