@@ -192,7 +192,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Miska\gosenica_1 %283%29.ico" />
+    <None Include="Miska\gosenica_1.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
