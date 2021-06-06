@@ -15,13 +15,16 @@ namespace Magicni_trikotnik
     public partial class Form1 : Form
     {
         WindowsMediaPlayer Igralnik = new WindowsMediaPlayer();
-
+        WindowsMediaPlayer Igralnik_2 = new WindowsMediaPlayer();
         public Form1()
         {
             InitializeComponent();
             button13.FlatAppearance.BorderSize = 0;
             Gosenica.Izmisli();
             Cursor = new Cursor(Application.StartupPath + "\\Miska\\gosenica_1.ico");
+            Igralnik_2.settings.setMode("loop", true);
+            Igralnik_2.settings.volume = 50;
+            Igralnik_2.URL = "ozadje.mp3";
         }
 
         private void button4_Click(object sender, EventArgs e)
